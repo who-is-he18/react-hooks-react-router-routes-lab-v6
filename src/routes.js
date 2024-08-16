@@ -11,5 +11,6 @@ const routes = [
   { path: "/movie/:id", element: <Movie />, errorElement: <ErrorPage /> },
   { path: "*", element: <ErrorPage /> },
 ];
+// export default routes;
 
 export default routes;
