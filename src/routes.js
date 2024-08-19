@@ -6,7 +6,6 @@ import ErrorPage from "./pages/ErrorPage";
 
 
 
-// function Routes
 
 const routes = [
   { path: "/", element: <Home />, errorElement: <ErrorPage /> },
